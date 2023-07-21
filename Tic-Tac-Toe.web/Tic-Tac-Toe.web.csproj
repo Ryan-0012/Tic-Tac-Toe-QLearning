@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Tic_Tac_Toe.web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tic-Tac-Toe.Game\Tic-Tac-Toe.Game.csproj" />
+    <ProjectReference Include="..\Tic-Tac-Toe.Models\Tic-Tac-Toe.Models.csproj" />
+  </ItemGroup>
+
+</Project>
