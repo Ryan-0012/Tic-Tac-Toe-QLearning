@@ -1,0 +1,83 @@
+.tictactoe {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+.row {
+    height: 100px;
+}
+
+.cell1 {
+    border-top-left-radius: 20px;
+    border: solid 1px #0DA192;
+    border-left: 0;
+    border-top: 0;
+}
+
+.cell2 {
+    border: solid 1px #0DA192;
+    border-top: 0;
+}
+
+.cell3 {
+    border-top-right-radius: 20px;
+    border: solid 1px #0DA192;
+    border-right: 0;
+    border-top: 0;
+
+}
+
+.cell4 {
+    border: solid 1px #0DA192;
+    border-left: 0;
+}
+
+.cell5 {
+    border: solid 1px #0DA192;
+}
+
+.cell6 {
+    border: solid 1px #0DA192;
+    border-right: 0;
+}
+
+.cell7 {
+    border-bottom-left-radius: 20px;
+    border: solid 1px #0DA192;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.cell8 {
+    border: solid 1px #0DA192;
+    border-bottom: 0;
+}
+
+.cell9 {
+    border-bottom-right-radius: 20px;
+    border: solid 1px #0DA192;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  gray;
+    font-size: 30px;
+}
+
+.col.active {
+    background-color: #f0f0f0;
+  
+}
+  
+  .symbol {
+    display: none;
+  }
+  
+  .col.active .symbol {
+    display: block;
+  }

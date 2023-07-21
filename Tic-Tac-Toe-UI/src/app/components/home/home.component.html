@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="row mb-5" style="width: 300px; height: 28px;">
+        <div class="col" style="margin-right: 20px; border-radius: 5px; border-bottom: solid 1px; border-right: 1px solid;">
+            <div class="row">
+                <div class="col">{{pointsX}}</div>    
+                <div class="col" style="text-align: right;">X</div>        
+            </div>
+        </div>
+        <div class="col" style="border-radius: 5px; border-bottom: solid 1px; border-right: 1px solid;">
+            <div class="row">
+                <div class="col">O</div>    
+                <div class="col" style="text-align: right;">{{pointsO}}</div>        
+            </div>
+        </div>    
+    </div>
+    <app-tic-tac-toe (pontosXChanged)="receberDadosDoFilhoX($event)" (pontosOChanged)="receberDadosDoFilhoO($event)"></app-tic-tac-toe>
+</div>
