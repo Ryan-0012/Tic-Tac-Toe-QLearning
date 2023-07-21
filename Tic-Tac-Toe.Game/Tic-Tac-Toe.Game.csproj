@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Tic_Tac_Toe.Game</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tic-Tac-Toe.Models\Tic-Tac-Toe.Models.csproj" />
+    <ProjectReference Include="..\Tic-Tac-Toe.Services\Tic-Tac-Toe.Services.csproj" />
+  </ItemGroup>
+
+</Project>
